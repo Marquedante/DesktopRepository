@@ -12,11 +12,11 @@ public class Principal {
 		
 		Aluno al1 = new Aluno("Diogo","RT90",new Integer(7));
 		
-		System.out.println(al1.getNome()+" - "+al1.getCodigo());
+		System.out.println(al1.getNome()+" - "+al1.getCodigo()+" - "+al1.getIdade());
 		
 		Aluno al2 = new Aluno("Renata","QW23",new Integer(8));
 		
-		System.out.println(al2.getNome()+" - "+al2.getCodigo());
+		System.out.println(al2.getNome()+" - "+al2.getCodigo()+" - "+al2.getIdade());
 	}
 
 }
