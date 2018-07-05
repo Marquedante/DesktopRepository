@@ -11,7 +11,6 @@ public class Aluno {
 	}
 	
 	public Aluno(String nome, String codigo, Integer idade) {
-		super();
 		this.nome = nome;
 		this.codigo = codigo;
 		this.idade = idade;
