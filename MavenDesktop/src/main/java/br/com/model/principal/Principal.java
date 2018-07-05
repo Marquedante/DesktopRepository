@@ -10,13 +10,11 @@ public class Principal {
 		
 		System.out.println(al.getNome()+" - "+al.getCodigo()+" / "+al.getIdade());
 		
-		/////////////////////////////////////////////////////////////
 		
 		Aluno al1 = new Aluno("Diogo","RT90",new Integer(7));
 		
 		System.out.println(al1.getNome()+" - "+al1.getCodigo()+" - "+al1.getIdade());
 		
-		//////////////////////////////////////////////////////////////
 		
 		Aluno al2 = new Aluno("Renata","QW23",new Integer(8));
 		
