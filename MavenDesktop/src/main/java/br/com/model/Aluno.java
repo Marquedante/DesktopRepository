@@ -45,7 +45,7 @@ public class Aluno implements Serializable{
 	}
 	
 	public String getCpf() {
-		return cpt;
+		return cpf;
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
