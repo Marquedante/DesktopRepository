@@ -8,7 +8,7 @@ public class Principal {
 		
 		Aluno al = new Aluno("Caio","12JE0",new Integer(12));
 		
-		System.out.println(al.getNome()+" - "+al.getCodigo()+" - "+al.getIdade());
+		System.out.println(al.getNome()+" - "+al.getCodigo()+" / "+al.getIdade());
 		
 		Aluno al1 = new Aluno("Diogo","RT90",new Integer(7));
 		
