@@ -42,7 +42,7 @@ public class Aluno {
 
 	@Override
 	public String toString() {
-		return "Aluno [nome=" + nome + ", codigo=" + codigo + "]";
+		return "Aluno : nome=" + nome + ", codigo=" + codigo;
 	}
 	
 	
