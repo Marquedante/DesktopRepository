@@ -15,10 +15,11 @@ public class Aluno implements Serializable{
 		
 	}
 	
-	public Aluno(String nome, String codigo, Integer idade) {
+	public Aluno(String nome, String codigo, Integer idade, String cpf) {
 		this.nome = nome;
 		this.codigo = codigo;
 		this.idade = idade;
+		this.cpf = cpf;
 	}
 	
 	public String getNome() {
