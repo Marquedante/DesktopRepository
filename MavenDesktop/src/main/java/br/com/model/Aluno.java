@@ -9,6 +9,7 @@ public class Aluno implements Serializable{
 	private String nome;
 	private String codigo;
 	private Integer idade;
+	private String cpf;
 	
 	public Aluno() {
 		
@@ -35,11 +36,19 @@ public class Aluno implements Serializable{
 	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
+	
 	public Integer getIdade() {
 		return idade;
 	}
 	public void setIdade(Integer idade) {
 		this.idade = idade;
+	}
+	
+	public String getCpf() {
+		return cpt;
+	}
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
 
