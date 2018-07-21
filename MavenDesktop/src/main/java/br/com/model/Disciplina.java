@@ -3,7 +3,9 @@ package br.com.model;
 public class Disciplina {
 	
 	private Long id;
+	
 	private String nome;
+	
 	private String codigo;
 	
 	public Disciplina() {
