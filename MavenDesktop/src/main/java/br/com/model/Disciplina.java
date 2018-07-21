@@ -11,8 +11,7 @@ public class Disciplina {
 	}
 	
 	public Disciplina(String nome, String codigo) {
-		this.nome = nome;
-		this.codigo = codigo;
+		this.nome = nome; this.codigo = codigo;
 	}
 	
 	public Long getId() {
