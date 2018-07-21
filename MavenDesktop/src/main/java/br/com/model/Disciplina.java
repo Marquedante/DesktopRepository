@@ -9,7 +9,12 @@ public class Disciplina {
 	public Disciplina() {
 		
 	}
-
+	
+	public Disciplina(String nome, String codigo) {
+		this.nome = nome;
+		this.codigo = codigo;
+	}
+	
 	public Long getId() {
 		return id;
 	}
