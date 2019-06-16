@@ -17,11 +17,13 @@ public class Principal {
 		
 		Aluno a3 = new Aluno("Tiago","0949",new Integer(33),"09586");
 		System.out.println(a3.getNome()+" - "+a3.getCodigo()+" - "+a3.getIdade());
-		
-		
+				
 		Aluno al4 = new Aluno("Fernando","FRND89",new Integer(32),"2345");
 		System.out.println(al4.getNome()+" - "+al4.getCodigo()+" - "+al4.getIdade());
-		
+			
+		Aluno al5 = new Aluno("Xavier","XXX",new Integer(2),"2");
+		System.out.println(al5.getNome()+" - "+al5.getCodigo()+" - "+al5.getIdade());
+			
 		
 		
 	}
