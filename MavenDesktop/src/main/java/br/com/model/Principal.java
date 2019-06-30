@@ -24,8 +24,12 @@ public class Principal {
 			
 		Aluno al5 = new Aluno("Xavier","XXX",new Integer(2),"2");
 		System.out.println(al5.getNome()+" - "+al5.getCodigo()+" - "+al5.getIdade());
-		
-		
+				
+		Aluno al6 = new Aluno("Antonio","ANT",new Integer(2),"2");
+		System.out.println(al6.getNome()+" - "+al6.getCodigo()+" - "+al6.getIdade());
+
+		Aluno al7 = new Aluno("Flavia","FLV",new Integer(2),"2");
+		System.out.println(al7.getNome()+" - "+al7.getCodigo()+" - "+al7.getIdade());
 			
 	}
  
