@@ -1,15 +1,11 @@
 package br.com.model;
 
-public class Disciplina {
+public class Disciplina implements SerializebleAAA {
 	
 	private Long id;
-	
 	private String nome;
-	
 	private String codigo;
-	
 	public Disciplina() {
-		
 	}
 	
 	public Disciplina(String nome, String codigo) {
