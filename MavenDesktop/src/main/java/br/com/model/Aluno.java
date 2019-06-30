@@ -5,16 +5,13 @@ import java.io.Serializable;
 public class Aluno implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
-	
 	private Long id;
 	private String nome;
 	private String codigo;
 	private Integer idade;
 	private String cpf;
 	
-	public Aluno() {
-		
-	}
+	public Aluno(){  }
 	
 	public Aluno(String nome, String codigo, Integer idade, String cpf) {
 		this.nome = nome;
