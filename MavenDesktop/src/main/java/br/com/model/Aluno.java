@@ -13,9 +13,13 @@ public class Aluno implements Serializable{
 	private String cpf;
 	
 	public Aluno() {
-		
 	}
 	
+	public Aluno(String nome, String cpf) {
+	        this.nome = nome;
+		this.cpf = cpf;
+	}
+		
 	public Aluno(String nome, String codigo, Integer idade, String cpf) {
 		this.nome = nome;
 		this.codigo = codigo;
@@ -91,6 +95,4 @@ public class Aluno implements Serializable{
 		return "Aluno : nome=" + nome + ", codigo=" + codigo;
 	}
 	
-	
-
 }
