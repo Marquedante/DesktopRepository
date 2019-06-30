@@ -6,7 +6,10 @@ public class Disciplina implements Serializable {
 	private Long id;
 	private String nome;
 	private String codigo;
-	public Disciplina() {}
+	
+	public Disciplina(){
+	
+	}	
 	
 	public Disciplina(String nome, String codigo) {
 		this.nome = nome; 

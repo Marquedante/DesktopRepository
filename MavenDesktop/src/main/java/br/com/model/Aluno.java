@@ -14,11 +14,6 @@ public class Aluno implements Serializable{
 	public Aluno() {
 	}
 	
-	public Aluno(String nome, String cpf) {
-	        this.nome = nome;
-		this.cpf = cpf;
-	}
-		
 	public Aluno(String nome, String codigo, Integer idade, String cpf) {
 		this.nome = nome;
 		this.codigo = codigo;
